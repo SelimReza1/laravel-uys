@@ -100,14 +100,14 @@
                                         <a class="nav-link" href="{!! url('results') !!}">results</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{!! url('point-table') !!}">point table</a>
+                                        <a class="nav-link" href="{!! url('point-tables') !!}">point table</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">sports</a>
+                                        <a class="nav-link dropdown-toggle" href="{!! url('index') !!}" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">sports</a>
                                         <div class="dropdown-menu animation  slideUpIn">
-                                            <a class="dropdown-item" href="sports.html">sports</a>
-                                            <a class="dropdown-item" href="sports2.html">sports 2</a>
-                                            <a class="dropdown-item" href="single-page.html">single page</a>
+                                            <a class="dropdown-item" href="{!! url('sports') !!}">sports</a>
+                                            <a class="dropdown-item" href="{!! url('sports2') !!}">sports 2</a>
+                                            <a class="dropdown-item" href="{!! url('single-page') !!}">single page</a>
                                         </div>
                                     </li>
                                     <li class="nav-item ">
